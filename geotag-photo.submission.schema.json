@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "zoom": {
+      "type": "number"
+    },
+    "angle": {
+      "type": "number"
+    },
+    "bearing": {
+      "type": "number"
+    },
+    "distance": {
+      "type": "number"
+    },
+    "geometry": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "required": [
+    "geometry"
+  ]
+}
